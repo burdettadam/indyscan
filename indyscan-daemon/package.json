@@ -15,10 +15,10 @@
     "genesis": "node genesis.js"
   },
   "dependencies": {
-    "mongodb": "^3.1.10",
     "indy-sdk": "1.9.0",
     "indyscan-storage": "file:../indyscan-storage",
     "indyscan-txtype": "file:../indyscan-txtype",
+    "mongodb": "^3.1.10",
     "sleep-promise": "^8.0.1",
     "util": "^0.11.1",
     "uuid": "^3.3.2",

@@ -21,7 +21,7 @@ const scanModes = {
   'FRENZY': { periodMs: 300, unavailableTimeoutMs: 300, jitterRatio: 0.1 }
 }
 
-const SCAN_MODE = process.env.SCAN_MODE || 'SLOW'
+const SCAN_MODE = process.env.SCAN_MODE || 'FAST'
 
 const asyncMongoConnect = util.promisify(MongoClient.connect)
 
